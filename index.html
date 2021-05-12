@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0617730640.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="" id="theme-link">
+    <link rel="stylesheet" media="screen and (max-width: 800px" href="styles/adaptive.css">
+    <title>Arka design</title>
 </head>
 <body>
     <div class="menu">
         <div class="header">
             <img class="logo_menu" src="assets/image/logo.png" alt="picture" >
-            <img class="vector" src="assets/image/Vector.png" alt="picture">
-            <div class="start_your" href="#">START YOUR DESIGN</div>
-            <div class="all_products" href="#">ALL PRODUCTS</div>
-            <div class="inspiration" href="#">INSPIRATION</div>
-            <div class="about" href="#">ABOUT</div>
-            <div class="account" href="#">ACCOUNT</div>
-            <img class="basket" src="assets/image/basket.jpg" alt="picture" >
+            <div class="wrapper">
+                <img class="vector" src="assets/image/Vector.png" alt="picture">
+                <a class="start_your" href="#">START YOUR DESIGN</a> 
+                <a class="all_products" href="#Products">ALL PRODUCTS</a>
+                <a class="inspiration" href="#block_merchants_love_Arka">INSPIRATION</a>
+                <a class="about" href="#">ABOUT</a>
+            </div>
+            <div class="account_1">
+                <div class="account" href="#">ACCOUNT</div>
+                <img class="basket" src="assets/image/basket.jpg" alt="picture" >
+            </div>  
         </div>
+        <button class="btn_subject">Dark theme</button>
         <div class="block-for-title">
             <div class="title">
                 <p class="text-for-title">Fast and easy custom boxes your customers will love</p>
@@ -27,7 +35,6 @@
             </div>
             <div class="picture-for-title"></div>
         </div>
-    
     </div>
     <div class="icons_certificate">
         <div class="icons">
@@ -43,72 +50,77 @@
             <p class="text_eco">Eco-Friendly</p>
         </div>
     </div>
-    <div class="Products">
-            <div class="text_for_products">
+    <section class="cont" id="tovar"> 
+        <div class="Products">
+            <a name="Products"></a>
+             <div class="text_for_products">
                 <p class="txt_product">Products you can customize</p>
                 <button class="btn_products">BROWSE ALL PRODUCTS</button>
-            </div>   
-        <div class="tovary">
-            <div class="block_poducts_one">
-                <img class="image_Custom_Carton_Boxes" src="assets/image/Custom Carton Boxes.png" alt="picture">
-                <p class="name_Custom">Custom Carton Boxes</p>
-                <br>
-                <div class="text_block">
-                    <p class="text_Custom">Create a clean brand presentation with this custom carton box.</p>
-                    <p class="the_cost_Custom">Starting at: $10.44/unit</p>
-                </div>
             </div>
-            <div class="block_poducts_two">
-                <img class="image_Custom_Boxes" src="assets/image/Custom Boxes.png" alt="picture">
-                <p class="name_Custom">Custom Boxes</p>
-                <br>
-                <div class="text_block">
-                    <p class="text_Custom">A stylish and strong corrugated cardboard box.</p>
-                    <p class="the_cost_Custom"></p>
+            <div class="opacity-center">
+                <div class="tovary">
+                    <div class="block_poducts_one">
+                        <img class="image_Custom_Carton_Boxes" src="assets/image/Custom Carton Boxes.png" alt="picture">
+                        <p class="name_Custom">Custom Carton Boxes</p>
+                        <br>
+                        <div class="text_block">
+                            <p class="text_Custom">Create a clean brand presentation with this custom carton box.</p>
+                            <p class="the_cost_Custom">Starting at: $10.44/unit</p>
+                        </div>
+                    </div>
+                    <div class="block_poducts_two">
+                        <img class="image_Custom_Boxes" src="assets/image/Custom Boxes.png" alt="picture">
+                        <p class="name_Custom">Custom Boxes</p>
+                        <br>
+                        <div class="text_block">
+                            <p class="text_Custom">A stylish and strong corrugated cardboard box.</p>
+                            <p class="the_cost_Custom"></p>
+                        </div>
+                    </div>
+                    <div class="block_poducts_tree">
+                        <img class="image_Custom_Poly_Mailers" src="assets/image/Custom Poly Mailers.png" alt="picture">
+                        <p class="name_Custom">Custom Poly Mailers</p>
+                        <br>
+                        <div class="text_block">
+                            <p class="text_Custom">A fully custom high quality self sealing poly mailer.</p>
+                            <p class="the_cost_Custom"></p>
+                        </div>
+                    </div>
+                    <div class="block_poducts_four">
+                        <img class="image_Custom_Tape" src="assets/image/Custom Tape.png" alt="picture">
+                        <p class="name_Custom">Custom Tape</p>
+                        <br>
+                        <div class="text_block">
+                            <p class="text_Custom">High quality custom tape to seal your shipping boxes during delivery.</p>
+                            <p class="the_cost_Custom">Starting at: $12.16/unit</p>
+                        </div>
+                    </div>
+                    <div class="block_poducts_five">
+                        <img class="image_Custom_Stickers" src="assets/image/Custom Stickers.png" alt="picture">
+                        <p class="name_Custom">Custom Stickers</p>
+                        <br>
+                        <div class="text_block">
+                            <p class="text_Custom">Add personality to your packages with custom stickers.</p>
+                            <p class="the_cost_Custom">Starting at: $0.41/unit</p>
+                        </div>
+                    </div>
+                    <div class="block_poducts_six">
+                        <img class="image_Custom_Tissue_Paper" src="assets/image/Custom Tissue Paper.png" alt="picture">
+                        <p class="name_Custom">Custom Tissue Paper</p>
+                        <br>
+                        <div class="text_block">
+                            <p class="text_Custom">The perfect addition to branding your package.</p>
+                            <p class="the_cost_Custom">Starting at: $6.54/unit</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="block_poducts_tree">
-                <img class="image_Custom_Poly_Mailers" src="assets/image/Custom Poly Mailers.png" alt="picture">
-                <p class="name_Custom">Custom Poly Mailers</p>
-                <br>
-                <div class="text_block">
-                    <p class="text_Custom">A fully custom high quality self sealing poly mailer.</p>
-                    <p class="the_cost_Custom"></p>
-                </div>
-            </div>
-            <div class="block_poducts_four">
-                <img class="image_Custom_Tape" src="assets/image/Custom Tape.png" alt="picture">
-                <p class="name_Custom">Custom Tape</p>
-                <br>
-                <div class="text_block">
-                    <p class="text_Custom">High quality custom tape to seal your shipping boxes during delivery.</p>
-                    <p class="the_cost_Custom">Starting at: $12.16/unit</p>
-                </div>
-            </div>
-            <div class="block_poducts_five">
-                <img class="image_Custom_Stickers" src="assets/image/Custom Stickers.png" alt="picture">
-                <p class="name_Custom">Custom Stickers</p>
-                <br>
-                <div class="text_block">
-                    <p class="text_Custom">Add personality to your packages with custom stickers.</p>
-                    <p class="the_cost_Custom">Starting at: $0.41/unit</p>
-                </div>
-            </div>
-            <div class="block_poducts_six">
-                <img class="image_Custom_Tissue_Paper" src="assets/image/Custom Tissue Paper.png" alt="picture">
-                <p class="name_Custom">Custom Tissue Paper</p>
-                <br>
-                <div class="text_block">
-                    <p class="text_Custom">The perfect addition to branding your package.</p>
-                    <p class="the_cost_Custom">Starting at: $6.54/unit</p>
-                </div>
+           </div>
+            <div class="block_unbranded_stock">
+                <p class="txt_unbranded_stock">Need unbranded stock items?</p>
+                <button class="btn_shop_stok">SHOP STOCK</button>
             </div>
         </div>
-        <div class="block_unbranded_stock">
-            <p class="txt_unbranded_stock">Need unbranded stock items?</p>
-            <button class="btn_shop_stok">SHOP STOCK</button>
-        </div>
-    </div>
+    </section>  
     <div class="block_for_design">
         <div class="block_for_design_boxes">
             <div class="heading_block_for_design">Fast and easy custom boxes your customers will love</div>
@@ -159,7 +171,143 @@
                 </div>
             </div>    
         </div>
-    </div> 
+    </div>
+    <div class="cont_for_request">
+        <div class="block_for_request">
+            <div class="first_block_for_request">
+                <img class="block_1_request" src="assets/image/request1.png" alt="picture">
+                <p class="header_1_request">Couldn't find a size you need?</p>
+                <p class="text_1_request">We’ll work directly with you to create a fully branded packaging system.</p>
+                <button class="btn_1_request">Request a quote</button>        
+            </div>
+            <div class="last_block_for_request">
+                <img class="block_2_request" src="assets/image/request2.png">
+                <p class="header_2_request">Need a free dieline template?</p>
+                <p class="text_2_request">Let us know what size you need and we'll email an Adobe Illustrator dieline to you within 3-4 business days.</p>
+                <button class="btn_2_request">Request dieline</button>        
+            </div>
+        </div>
+    </div>  
+    <section class="block" id="bl">
+    <div class="block_merchants_love_Arka">
+        <a name="block_merchants_love_Arka"></a>
+        <div class="header_merchants_love_Arka">Merchants love Arka</div>
+        <div class="reviews_of_arka">
+            <br>
+            <div class="sities_reviews">
+                <a href="https://www.google.com/"><img class="googl" src="assets/image/go.png"></a>
+                <a href="https://www.shopify.com/"><img class="shop" src="assets/image/sho.png"></a>
+            </div>
+            <div class="fist_reviews_of_people">
+                <div class="first_image">
+                    <img class="first_picture_one" src="assets/image/first_picture_one.png" alt=picture>
+                    <img class="next_picture_one" src="assets/image/next_picture_one.png" alt=picture>
+                </div>
+                <div class="one_people">
+                    <p class="heading_one_reviews">“Arka’s team is super fast, knowledgeable, and easy to work with - highly recommended!”</p>
+                    <div class="comment_one_people">
+                        <div class="one_names">
+                            <img class="one_people_img" src="assets/image/jessie.png">
+                            <div class="names_of_people1">
+                                <p class="namepeople1">Jesse</p>
+                                <p class="nikname1">Subscription Catalyst</p>
+                            </div>
+                        </div>
+                        <button class="btn_one_people">Their story</button>
+                    </div>
+                </div>
+            </div>
+            <div class="next_reviews_of_people">
+                <div class="two_people">
+                    <p class="heading_two_reviews">“I really like Arka because it’s a really nice box, I’ve gotten a lot of compliments on&nbsp;it.”</p>
+                    <div class="comment_two_people">
+                        <div class="two_names">
+                            <img class="two_people_img" src="assets/image/lesslie.png">
+                            <div class="names_of_people2">
+                                <p class="namepeople2">Leslie</p>
+                                <p class="nikname2">Burgundy Foxt</p>
+                            </div>
+                        </div>
+                        <button class="btn_two_people">Their story</button>
+                    </div>
+                </div>
+                <div class="next_image">
+                    <img class="first_picture_two" src="assets/image/first_picture_two.png" alt="picture">
+                    <img class="next_picture_two" src="assets/image/next_picture_two.png" alt="picture">
+                </div> 
+            </div>
+            <div class="last_reviews_of_people">
+                <div class="last_image">
+                    <img class="first_picture_tree" src="assets/image/first_picture_tree.png" alt="picture">
+                    <img class="next_picture_tree" src="assets/image/next_picture_tree.png" alt="picture">
+                </div>  
+                <div class="tree_people">
+                    <p class="heading_tree_reviews">“I love how easily it was to customize the box, and you guys were more affordable.”</p>
+                    <div class="comment_tree_people">
+                        <div class="tree_names">
+                            <img class="tree_people_img" src="assets/image/anthony.png">
+                            <div class="names_of_people3">
+                                <p class="namepeople3">Anthony</p>
+                                <p class="nikname3">Lipstick Junkie</p>
+                            </div>
+                        </div>
+                        <button class="btn_tree_people">Their story</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <div class="lets_get_for_block">
+        <div class="text_and_btn_block">
+            <p class="text_for_block_lets_get">Let`s get to it</p>
+            <div class="buttons_blocks">
+                <button class="one_btn_lets">Start your design</button>
+                <button class="two_btn_lets">Browse all products</button>
+            </div>
+        </div>
+    </div>
+    <div class="basement">
+        <div id="arrow_top" hidden>
+            <img class="img-arrow" src="assets/image/arrow-up.png" alt="picture">
+        </div>
+        <div class="basement_about_us">
+            <img class="logo_basement" src="assets/image/logo_base.png"></img>
+            <div class="one_block_basement">
+                <a class="word" href="#">Custom Design</a>
+                <a class="word" href="#">All Products</a>
+                <a class="word" href="#">Inspiration</a>
+                <a class="word" href="#">Sustainability</a>
+                <a class="word" href="#">Affiliate Program</a>
+                <a class="word" href="#">Request Custom Quote</a>
+                <a class="word" href="#">Request Dieline</a>
+
+            </div>
+            <div class="two_block_basement">
+                <a class="word" href="#">About Us</a>
+                <a class="word" href="#">Blog</a>
+                <a class="word" href="#">Partners</a>
+                <a class="word" href="#">Contact Us</a>
+                <a class="word" href="#">FAQ</a>
+                <a class="word" href="#">Terms & Conditions</a>
+            </div>
+            <div class="tree_block_basement">
+                    <a class="word" href="#">Shopify App</a>
+                    <a class="word" href="#">14 Day Free Shopify Trial</a>
+                    <a class="word" href="#">BigCommerce</a>
+                    <div class="icons_basement">
+                        <a class="facebook" href="https://web.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a class="twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a class="insta" href="https://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+            </div>
+            <div class="four_block_basement">
+                <a class="word" href="#">Get exclusive offers and tips.</a>
+                <input type="email" class="your_email" placeholder="Your email">
+                <button class="btn_basement">Join instantly</button>
+            </div>
+        </div>
+    </div>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/index.js"></script>
 </body>

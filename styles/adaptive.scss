@@ -36,7 +36,7 @@
     text-decoration: none;
     color: white; 
 } 
-$font-size: 14px;
+$font-size: 10px;
 $font-family: 'Roboto', sans-serif;
 $font-style: normal;
 $font-weight: normal;
@@ -57,20 +57,19 @@ $border: solid 1px rgb(238,238,238);
 .header
 {
     background-color: white;
-    width: 100%;
+    width: 800px;
     height: 61px;
-    align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .wrapper
 {
     @include displayblockbetween;
-    width: 500px;
+    width: 300px;
 }
 .logo_menu
 {
-    width: 85px;
+    width: 80px;
     height: 24px;
     cursor: pointer;
 }
@@ -83,7 +82,6 @@ $border: solid 1px rgb(238,238,238);
 }
 .start_your
 {
-    width: 170px;
     height: 18px;
     font-size: $font-size;
     font-family: $font-family;
@@ -96,7 +94,6 @@ $border: solid 1px rgb(238,238,238);
 }
 .all_products
 {
-    width: 124px;
     height: 18px;
     font-size: $font-size;
     font-family: $font-family;
@@ -108,7 +105,6 @@ $border: solid 1px rgb(238,238,238);
 }
 .inspiration
 {
-    width: 108px;
     height: 18px;
     font-size: $font-size;
     font-family: $font-family;
@@ -120,7 +116,6 @@ $border: solid 1px rgb(238,238,238);
 }
 .about
 {
-    width: 57px;
     height: 18px;
     font-size: $font-size;
     font-family: $font-family;
@@ -133,11 +128,10 @@ $border: solid 1px rgb(238,238,238);
 .account_1
 {
     @include displayblockbetween;
-    width: 100px;
+    width: 90px;
 }
 .account
 {
-    width: 83px;
     height: 18px;
     font-size: $font-size;
     font-family: $font-family;
@@ -147,8 +141,8 @@ $border: solid 1px rgb(238,238,238);
 }
 .basket
 {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
 .btn_subject
@@ -177,15 +171,13 @@ $border: solid 1px rgb(238,238,238);
 }
 .picture-for-title
 {
-    width: 504px;
-    height: 504px;
-    background: url(../assets/image/picture-for-title.png);
+   display: none;
 }
 .text-for-title
 {
-    width: 480px;
-    height: 168px;
-    font-size: 48px;
+    width: 370px;
+    height: 100px;
+    font-size: 30px;
     font-family: $font-family;
     font-style: $font-style;
     font-weight: $font-weight;
@@ -259,14 +251,14 @@ $border: solid 1px rgb(238,238,238);
 {
     @include displayblockbetween;
     @include displayblockgrey; 
-    height: 1162px;
+    height: 1800px;
     flex-direction: column;
    
 }
 .text_for_products
 {
     @include displayblockbetween;
-    width: 1200px;
+    width: 100%;
     align-self: center;
     padding-top: 57px;
 }
@@ -292,25 +284,25 @@ $border: solid 1px rgb(238,238,238);
 }
 .tovary 
 {
-    width: 1200px;
-    height: 864.31px;
+    width: 100%;
+    height: 1300px;
     align-self: center;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 432px 432px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 432px 432px 432px;
     grid-row: 1px;
     background-color: white;
 }
 .opacity-center
 {
     display: none;
-    width: 1200px;
-    height: 864.31px;
+    width: 800px;
+    height: 1300px;
     align-self: center;
 }
+
 .block_poducts_one
 {
-
     grid-column: 1/2;
     grid-row: 1/2;
     border:$border
@@ -324,26 +316,26 @@ $border: solid 1px rgb(238,238,238);
 }
 .block_poducts_tree
 {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    border:$border
-}
-.block_poducts_four
-{
     grid-column: 1/2;
     grid-row: 2/3;
     border:$border
 }
-.block_poducts_five
+.block_poducts_four
 {
     grid-column: 2/3;
     grid-row: 2/3;
     border:$border
 }
+.block_poducts_five
+{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border:$border
+}
 .block_poducts_six
 {
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-row: 3/4;
     border:$border
 }
 .name_Custom
@@ -416,7 +408,7 @@ $border: solid 1px rgb(238,238,238);
 }
 .block_for_design_boxes
 {
-    width: 1200px;
+    width: 100%;
     height: 774px;
     background-color: rgb(114, 189, 163);
     align-items: center;
@@ -431,31 +423,32 @@ $border: solid 1px rgb(238,238,238);
     font-style: $font-style;
     font-family: $font-family;
     font-weight: $font-weight;
-    font-size: 32px;
+    font-size: 25px;
     color: rgb(1, 31, 58);
 }
 
 .picture_block_for_design
 {
-    display: grid;
-    grid-template-columns: 50px 300px 100px 300px 100px 300px 50px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .one_picture_block
 {
+    width: 250px;
     @include displayblockbetween;
-    grid-column: 2/3;
     flex-direction: column;
 }
 .two_picture_block
 {
+    width: 250px;
     @include displayblockbetween;
-    grid-column: 4/5;
     flex-direction: column;
 }
 .tree_picture_block
 {
+    width: 250px;
     @include displayblockbetween;
-    grid-column: 6/7;
     flex-direction: column;
 }
 .name_block_for_design
@@ -529,7 +522,7 @@ $border: solid 1px rgb(238,238,238);
 }
 ._arka_advantage
 {
-    width: 1200px;
+    width: 100%;
     height: 624px;
     display: flex;
     flex-direction: column;
@@ -614,18 +607,18 @@ $border: solid 1px rgb(238,238,238);
 }
 .block_for_request
 {
-    width: 1200px;
+    width: 100%;
     height: 610px;
     background-color: rgb(255,202,58);
     display: grid;
-    grid-template-columns: 600px 600px ; 
+    grid-template-columns: 400px 400px ; 
     grid-template-rows: 100px 410px 90px;
 }
 .first_block_for_request
 {
     display: flex;
     justify-content: space-evenly;
-    width: 600px;
+    width: 400px;
     height: 410px;
     grid-column: 1/2;
     grid-row: 2/3;
@@ -635,7 +628,7 @@ $border: solid 1px rgb(238,238,238);
 .last_block_for_request
 {
     @include displayblockbetween;
-    width: 600px;
+    width: 400px;
     height: 410px;
     grid-column: 2/3;
     grid-row: 2/3;
@@ -709,7 +702,7 @@ $border: solid 1px rgb(238,238,238);
 .reviews_of_arka
 {
     @include displayblockbetween;
-    width: 1200px;
+    width: 800px;
     height: 1306px;
     background-color: white;
     flex-direction: column;
@@ -718,7 +711,6 @@ $border: solid 1px rgb(238,238,238);
 {
     display: flex;
     justify-content: space-around;
-
 }
 .googl
 {
@@ -730,18 +722,24 @@ $border: solid 1px rgb(238,238,238);
 }
 .fist_reviews_of_people, .last_reviews_of_people
 {
-    width: 1200px;
+    width: 800px;
     height: 294px;
     display: grid;
-    grid-template-columns: 600px 106px 494px;
+    grid-template-columns: 380px 5px 370px;
 }
 .first_image, .last_image
 {
     grid-column: 1/2;
 }
+.first_picture_one, .next_picture_one, .first_picture_two, .next_picture_two, .first_picture_tree, .next_picture_tree
+{
+    width: 180px;
+    height: 200px;
+}
+
 .one_people, .tree_people
 {
-    width: 600px;
+    width: 370px;
     height: 294px;
     grid-column: 3/4;
     display: flex;
@@ -757,7 +755,7 @@ $border: solid 1px rgb(238,238,238);
 {
     display: flex;
     justify-content: space-between;
-    width: 395px;
+    width: 370px;
 }
 .one_names, .tree_names
 {
@@ -767,9 +765,9 @@ $border: solid 1px rgb(238,238,238);
 }
 .heading_one_reviews, .heading_two_reviews, .heading_tree_reviews
 {
-    width: 395px;
+    width: 370px;
     height: 96px;
-    font-size: 24px;
+    font-size: 20px;
     font-style: $font-style;
     font-weight: 400;
     display: flex;
@@ -809,15 +807,15 @@ $border: solid 1px rgb(238,238,238);
 }
 .next_reviews_of_people
 {
-    width: 1200px;
+    width: 100%;
     height: 294px;
     display: grid;
-    grid-template-columns: 106px 384px 112px 600px;
+    grid-template-columns: 370px 5px 380px;
 }
 .two_people
 {
-    grid-column: 2/3;
-    width: 494px;
+    grid-column: 1/2;
+    width: 370px;
     height: 294px;
     display: flex;
     justify-content: center;
@@ -826,7 +824,7 @@ $border: solid 1px rgb(238,238,238);
 }
 .next_image
 {
-    grid-column: 4/5;
+    grid-column: 3/4;
 }
 .next_image, .two_people
 {
@@ -941,7 +939,7 @@ $border: solid 1px rgb(238,238,238);
 .basement
 {
     width: 100%;
-    height: 365px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -949,21 +947,24 @@ $border: solid 1px rgb(238,238,238);
 }
 .basement_about_us
 {
-    width: 1200px;
-    height: 245px;
+    width: 100%;
+    height: 800px;
     align-self: center;
     display: grid;
-    grid-template-columns: 177px 256px 235px 270px 262px;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: repeat(3,250px);
 }
 .logo_basement
 {
-    grid-column: 1/2;
+    grid-column: 2/3;
+    grid-row: 1/2;
 
 }
 .one_block_basement
 {
     height: 192px;
-    grid-column: 2/3;
+    grid-column: 1/2;
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -971,7 +972,8 @@ $border: solid 1px rgb(238,238,238);
 .two_block_basement
 {
     height: 157px;
-    grid-column: 3/4;
+    grid-column: 2/3;
+    grid-row: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -979,7 +981,8 @@ $border: solid 1px rgb(238,238,238);
 .tree_block_basement
 {
     height: 110px;
-    grid-column: 4/5;
+    grid-column: 1/2;
+    grid-row: 3/4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -987,7 +990,8 @@ $border: solid 1px rgb(238,238,238);
 .four_block_basement
 {
     height: 120px;
-    grid-column: 5/6;
+    grid-column: 2/3;
+    grid-row: 3/4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

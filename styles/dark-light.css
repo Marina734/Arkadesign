@@ -17,7 +17,7 @@
 }
 
 .header {
-  background-color: white;
+  background-color: #aaa6a6;
   width: 100%;
   height: 61px;
   -webkit-box-align: center;
@@ -208,6 +208,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: #d3cdcd;
 }
 
 .icons {
@@ -255,7 +256,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #aaa6a6;
   height: 1162px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -309,7 +310,7 @@
       grid-template-rows: 432px 432px;
   -ms-grid-row: 1;
   grid-row: 1px;
-  background-color: white;
+  background-color: #d3cdcd;
 }
 
 .opacity-center {
@@ -434,7 +435,7 @@
   font-size: 15x;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: #a1a1a1;
+  color: #333232;
 }
 
 .btn_shop_stok {
@@ -453,7 +454,7 @@
 
 .block_for_design {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #aaa6a6;
   height: 914px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -613,7 +614,7 @@
 
 .block_arka_advantage {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #aaa6a6;
   height: 766px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -716,7 +717,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  color: #a1a1a1;
+  color: #6e6e6e;
 }
 
 .text_two_picture_advantage {
@@ -726,7 +727,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  color: #a1a1a1;
+  color: #6e6e6e;
 }
 
 .text_tree_picture_advantage {
@@ -736,12 +737,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  color: #a1a1a1;
+  color: #6e6e6e;
 }
 
 .cont_for_request {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #aaa6a6;
   height: 730px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -859,7 +860,7 @@
 
 .block_merchants_love_Arka {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #aaa6a6;
   height: 1548px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -892,7 +893,7 @@
           justify-content: space-between;
   width: 1200px;
   height: 1306px;
-  background-color: white;
+  background-color: #d3cdcd;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1171,7 +1172,7 @@
 
 .lets_get_for_block {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #aaa6a6;
   height: 392px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1248,7 +1249,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #f2f3f4;
+  background-color: #b3adad;
 }
 
 .basement_about_us {
@@ -1475,4 +1476,4 @@
   width: 70px;
   height: 60px;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=dark-light.css.map */
